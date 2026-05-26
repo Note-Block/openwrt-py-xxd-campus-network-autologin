@@ -17,10 +17,10 @@
 - ```AccountsCheckFunction.py``` 账号选择逻辑。根据```LRU```算法选择最久未使用的账号进行登录。调用```loginFunction()```和```change_wlan0_mac()```函数登录和更换mac地址。自动记录账号使用和封禁状态。
 - ```loginFunction.py```账号登录操作和MAC地址更换逻辑。并根据门户登录网站返回值判断登录状态。
 - ```PrintFunction.py```调试与输出逻辑。在终端和```tty1```设备输出调试信息，提供状态反馈。
----
+
 - ```accountList.py```储存账号与密码的列表
 - ```status.json```记录账号使用时间和封禁状态
----
+
 - ```./TEST/```测试文件夹，存放测试脚本
 
 ## 使用方法
